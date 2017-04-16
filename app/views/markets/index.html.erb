@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="padded">
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <%= render 'new' %>
+      </div>
+    </div>
+      <div class="row">
+        <div class="market-list">
+          <div class="col-xs-12 col-md-10 col-md-offset-1">
+           <ul class="list-unstyled">
+             <% @markets.each do |market| %>
+               <li><h4><%= market.address %></h4></li>
+             <% end %>
+           </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+
+</div>
