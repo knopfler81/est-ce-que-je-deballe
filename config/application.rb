@@ -13,7 +13,8 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 require "forecast_io"
 
-ForecastIO.api_key = "2e7f6c7cc7d37cf9d072f6fb861f47c0"
+ForecastIO.api_key = "ef17c0ee6d8aea1200219c607b63c028"
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
@@ -29,3 +30,4 @@ module EstCeQueJeDeballe
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
