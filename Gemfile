@@ -20,8 +20,7 @@ gem 'autoprefixer-rails'
 
 gem 'geocoder'
 gem 'gmaps4rails'
-
-# gem 'forecast_io'
+gem 'forecast_io'
 
 group :development, :test do
   gem 'binding_of_caller'

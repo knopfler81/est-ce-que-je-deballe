@@ -11,7 +11,9 @@ require "action_view/railtie"
 require "action_cable/engine"
 require "sprockets/railtie"
 # require "rails/test_unit/railtie"
+require "forecast_io"
 
+ForecastIO.api_key = "2e7f6c7cc7d37cf9d072f6fb861f47c0"
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
