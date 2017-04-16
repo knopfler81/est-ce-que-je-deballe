@@ -1,0 +1,6 @@
+<div class="search_form">
+  <%= simple_form_for Market.new, wrapper: :inline_form, html: {class: 'autocomplete form-inline'}  do |f| %>
+    <%= f.input :address, label: false %>
+    <%= f.button :submit, "Rechercher", class:" btn btn-primary"  %>
+  <% end %>
+</div>
